@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Product App</string>
+    <string name="save">Save</string>
+    <string name="colors">Colors</string>
+    <string name="stores">Stores</string>
+    <string name="select">select</string>
+    <string name="select_image">select image</string>
+    <string name="sale_price">Sale Price</string>
+    <string name="regular_price">Regular Price</string>
+    <string name="test_description">Test Description</string>
+    <string name="description">Description</string>
+    <string name="name">Name...</string>
+    <string name="add_product">Add Product</string>
+    <string name="show_product">Show Product</string>
+    <string name="clicked">Clicked</string>
+    <string name="dialog_message">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="updated">Updated</string>
+    <string name="deleted">Deleted</string>
+    <string name="single_color_test">green</string>
+    <string name="green_red_pink_test">Green,Red,Pink</string>
+    <string name="no_image_found">No Image found</string>
+    <string name="address1_address2_address3">Address1,Address2,Address3</string>
+</resources>

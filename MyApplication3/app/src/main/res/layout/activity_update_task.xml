@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Update Task"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+        <!-- <EditText
+             android:id="@+id/editText1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="ID.." />-->
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name..." />
+
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description" />
+        <EditText
+            android:inputType = "number"
+            android:id="@+id/et_regular_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Regular Price" />
+        <EditText
+            android:inputType = "number"
+            android:id="@+id/et_sale_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sale Price" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:maxLines="2"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:layout_toLeftOf="@+id/button_select"
+                android:id="@+id/text"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="select image"/>
+
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/button_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select" />
+
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/et_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Colors" />
+
+        <EditText
+            android:id="@+id/et_stores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stores" />
+
+        <EditText
+            android:id="@+id/et_addressUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stores" />
+
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Update"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Delete"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
